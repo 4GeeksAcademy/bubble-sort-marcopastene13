@@ -1,0 +1,43 @@
+body {
+    background-color: green;
+  
+  }
+  
+  .mazo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .carta {
+    width: 60px;
+    height: 80px;
+    background: white;
+    margin: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 7px;
+   
+  }
+  
+  
+  .carta .esquina {
+    position: absolute;
+    font-size: 15px;
+  }
+  
+  .carta .arriba-izquierda {
+    top: 5px;
+    left: 5px;
+  }
+  
+  .carta .abajo-derecha {
+    bottom: 5px;
+    right: 5px;
+  }
+  
+  .red { color: red; }  
+  .black { color: black; } 
+  
